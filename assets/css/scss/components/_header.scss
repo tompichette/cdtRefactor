@@ -1,0 +1,44 @@
+// -----------------------------------------------------------------------------
+// Contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+.nav {
+	width: 100%;
+	height: 5vh;
+	line-height: 5vh;
+	padding: 0 1.5em;
+	background-color: transparent;
+	position: fixed;
+	top: 0;
+
+	&--blue {
+		background: -moz-linear-gradient(top, #0081ba 0%, #009de3 25%, #009de3 75%, #0081ba 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #0081ba 0%,#009de3 25%,#009de3 75%,#0081ba 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #0081ba 0%,#009de3 25%,#009de3 75%,#0081ba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	}
+
+	&__container {
+		max-width: 1200px;
+		margin: auto;
+	}
+
+	.companyName {
+		font-weight: 400;
+		color: $white;
+
+		&--bold {
+			font-weight: 600;
+		}
+	}
+
+	.nav__link {
+		padding: 0 10px;
+		float: right;
+		color: $gray-lighter;
+
+		&:hover {
+			text-decoration: underline;
+			color: $white;
+		}
+	}
+}
