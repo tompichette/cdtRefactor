@@ -1,0 +1,34 @@
+{
+  "name": "cdtrefactor",
+  "version": "1.0.0",
+  "description": "Node for CDT Refactor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tompichette/cdtRefactor.git"
+  },
+  "keywords": [
+    "Refactor"
+  ],
+  "author": "Tom Pichette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tompichette/cdtRefactor/issues"
+  },
+  "homepage": "https://github.com/tompichette/cdtRefactor#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "jshint": "^2.9.7"
+  }
+}
